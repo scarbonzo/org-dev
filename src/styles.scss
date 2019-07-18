@@ -1,27 +1,23 @@
 body {
-    background-color: lightgray;
-    color: white;
+    background-color: rgb(223, 221, 221);
+    color: #145595;
 }
 
 .bg-lsnj {
-    background-color: #145595;
+    background-color: white;
 }
 
-a {
-    color: orange;
+.navbar-light .navbar-nav .nav-link {
+    color: #145595;
 }
 
-a:hover {
-    color: yellow;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: white;
+.navbar-light .navbar-nav .nav-link:hover {
+    color: orangered;
 }
 
 .breadcrumb {
     font-size: 75%;
-    background-color: #155ea7;
+    background-color: rgb(223, 221, 221);
     border-radius: 0px;
     padding: 5px;
     padding-left: 15px;
@@ -29,7 +25,7 @@ a:hover {
 }
 
 .breadcrumb-item.active {
-    color: darkorange;
+    color: purple;
 }
 
 .footer {
@@ -54,21 +50,22 @@ a:hover {
 }
 
 .card {
-    background-color: #155ea7;
-    color: white;
-    outline: black;
+    //background-color: #155ea7;
+    color: #155ea7;
     border-radius: 10px;
     text-align: center;
+    min-height: 100px !important;
 }
 
 .card-header {
-    color: yellow;
+    color: red;
     text-align: center;
-    font-size: 110%;
     font-weight: bold;
-    height: 80px;
+    height: 70px;
+    padding: 5px;
 }
 
-h4 {
-    vertical-align: middle;
+.text-bigger {
+    font-size: 115%;
+    text-align: justify;
 }
